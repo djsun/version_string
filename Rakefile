@@ -5,13 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "version_string"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A String that holds a version number and is comparable}
+    gem.description = %Q{Call on VersionString when you need 1.2 to be less than 1.10}
     gem.email = "djames@sunlightfoundation.com"
     gem.homepage = "http://github.com/djsun/version_string"
     gem.authors = ["David James"]
     gem.add_development_dependency "rspec"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    # gem is a Gem::Specification...
+    # see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
